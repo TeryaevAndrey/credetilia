@@ -5,7 +5,11 @@
 }
 
 .tab {
-  /* display: none; */
+  display: none;
+}
+
+.tab.active {
+  display: block;
 }
 
 .form__arrows {
@@ -30,7 +34,7 @@
 
 .form__progress>div {
   background-color: #0049FF;
-  width: 20%;
+  width: 30%;
   height: 12px;
   border-radius: 10px;
 }
