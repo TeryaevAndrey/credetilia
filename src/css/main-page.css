@@ -97,6 +97,10 @@
   background-color: #0049FF;
 }
 
+.hiring__title.title {
+  color: #fff;
+}
+
 .hiring__inner {
   color: #fff;
 }
