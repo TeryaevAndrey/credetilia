@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <img class="logo__img" src="./images/logo.svg" alt="Creditilia" />
+          </a>
+          <img class="burger" src="./images/burger.svg" alt="burger" />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="banner">
+        <div class="container">
+          <div class="banner__inner">
+            <div class="banner__header">
+              <p class="banner__header-text">Préstamos personales</p>
+              <h1 class="banner__header-title">
+                Solicita tu Préstamo Personal Online <span>hasta 50.000€</span>
+              </h1>
+            </div>
+            <form class="banner__form">
+              <h2 class="banner__form-title">
+                ¿Cuánto dinero necesitas?
+              </h2>
+              <input class="banner__form-value" id="rangeValue" type="text" name="range-value" value="10.000€">
+              <div class="input-wrapper">
+                <input class="banner__form-range" id="rangeInput" type="range" name="range" min="0" max="50000" step="10" value="10000">
+                <div class="range-value-list">
+                  <span class="range-value-item start">0€</span>
+                  <span class="range-value-item end">50000€</span>
+                </div>
+              </div>
+              <button class="banner__form-btn" type="submit">
+                Solicita tu préstamo
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="hiring">
+        <div class="container">
+          <div class="hiring__inner">
+            <h2 class="hiring__title">
+              Contratarlo es así de fácil:
+            </h2>
+            <div class="hiring__list">
+              <div class="hiring__item">
+                <div class="img-wrapper">
+                  <img class="hiring__item-img" src="./images/hiring-1.svg" alt="accouting">
+                </div>
+                <h3 class="hiring__item-title">
+                  Solicita tu préstamo
+                </h3>
+                <p class="hiring__item-text">
+                  Completa nuestro formulario para encontrar el prestamo que más se ajusta a ti.
+                </p>
+              </div>
+              
+              <div class="hiring__item">
+                <div class="img-wrapper">
+                  <img class="hiring__item-img" src="./images/hiring-2.svg" alt="documents">
+                </div>
+                <h3 class="hiring__item-title">
+                  Adjunta la documentación
+                </h3>
+                <p class="hiring__item-text">
+                  Solicitada al tomarle una foto con tu móvil y firma de manera digital 
+                </p>
+              </div>
+
+              <div class="hiring__item">
+                <div class="img-wrapper">
+                  <img class="hiring__item-img" src="./images/hiring-3.svg" alt="coins">
+                </div>
+                <h3 class="hiring__item-title">
+                  Dinero en tu cuenta en 48 horas
+                </h3>
+                <p class="hiring__item-text">
+                  Un asesor se pondrá en contacto contigo y te comunicará que tu préstamo fue adjudicado con éxito. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
