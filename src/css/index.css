@@ -41,3 +41,10 @@ li {
   padding: 0 10px;
   margin: 0 auto;
 }
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0049FF;
+  text-align: center;
+}
