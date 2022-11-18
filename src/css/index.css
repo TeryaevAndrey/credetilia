@@ -1,6 +1,7 @@
 @import "./fonts.css";
 @import "./header.css";
 @import "./main-page.css";
+@import "./form.css";
 
 * {
   font-family: "Open Sans", sans-serif;
@@ -17,7 +18,7 @@ body {
   overflow-x: hidden;
 }
 
-button, 
+button,
 input {
   outline: none;
   border: none;

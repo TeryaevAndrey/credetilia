@@ -1,0 +1,128 @@
+.form {
+  padding: 25px 0 35px;
+  box-shadow: 0px 5.0719px 25.3595px rgba(0, 0, 0, 0.2);
+  background-color: #F1F1F199;
+}
+
+.tab {
+  /* display: none; */
+}
+
+.form__arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__arrows-item {
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+}
+
+.form__progress {
+  background-color: #DCDBDB;
+  width: 100%;
+  height: 12px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.form__progress>div {
+  background-color: #0049FF;
+  width: 20%;
+  height: 12px;
+  border-radius: 10px;
+}
+
+.form__title.title {
+  color: #000;
+  font-weight: 600;
+  max-width: 270px;
+  margin: 35px auto 0 auto;
+}
+
+.form__inputs-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.form__radio {
+  position: relative;
+  max-width: 305px;
+  width: 100%;
+  min-height: 65px;
+}
+
+.form__radio-input {
+  appearance: none;
+}
+
+.form__radio-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #EAEAEA;
+  color: #C9C9C9;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 22px 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form__radio-input:checked+.form__radio-label {
+  background-color: #0049FF;
+  color: #fff;
+}
+
+.form__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 305px;
+  width: 100%;
+}
+
+.form__input-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #060606;
+  margin-bottom: 5px;
+}
+
+.form__input {
+  max-width: 305px;
+  min-height: 50px;
+  border: 1px solid #9E9E9E;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+.form__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 215px;
+  width: 100%;
+  min-height: 50px;
+  background-color: #09D171;
+  color: #fff;
+  border-radius: 6px;
+  padding: 11px 25px;
+  margin: 40px auto 0 auto;
+  font-size: 16px;
+  font-weight: 700;
+}
