@@ -618,6 +618,14 @@
   .blog__item-text {
     font-size: 16px;
   }
+
+  .reviews .swiper {
+    max-width: 1300px;
+  }
+
+  .blog .swiper {
+    max-width: 1300px;
+  }
 }
 
 @media(min-width: 1150px) {
