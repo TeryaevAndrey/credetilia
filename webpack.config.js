@@ -3,7 +3,7 @@ const htmlWebpackPlugin = require("html-webpack-plugin");
 const miniCssExtractPlugin = require("mini-css-extract-plugin");
 const copyWebpackPlugin = require("copy-webpack-plugin");
 
-const pages = ["index", "form"]
+const pages = ["index", "form", "blog"];
 
 module.exports = {
   entry: pages.reduce((config, page) => {

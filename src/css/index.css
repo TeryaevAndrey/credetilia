@@ -2,6 +2,7 @@
 @import "./header.css";
 @import "./main-page.css";
 @import "./form.css";
+@import "./blog.css";
 
 * {
   font-family: "Open Sans", sans-serif;
@@ -10,12 +11,20 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  height: 100%;
+}
+
 body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
   color: #000;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 button,
