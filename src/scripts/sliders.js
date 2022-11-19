@@ -15,6 +15,11 @@ const swiper = new Swiper(".swiper", {
   breakpoints: {
     600: {
       slidesPerView: 2.3
+    },
+
+    875: {
+      slidesPerView: 3,
+      spacebetween: "1"
     }
   }
 });

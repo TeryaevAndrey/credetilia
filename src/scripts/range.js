@@ -12,12 +12,11 @@ rangeInput.addEventListener("input", (e) => {
 });
 
 rangeValue.addEventListener("input", (e) => {
-  rangeInput.value = e.target.value;
+  rangeInput.value = parseInt(e.target.value);
 });
 
 submitRange.addEventListener("click", (e) => {
   e.preventDefault();
 
   window.location.href="form.html"
-  console.log("clasd")
 });
