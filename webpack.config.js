@@ -31,7 +31,7 @@ module.exports = {
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: 'asset/resource',
+        type: 'asset/inline',
       },
     ]
   },
@@ -53,7 +53,7 @@ module.exports = {
     inject: true,
     template: path.resolve(__dirname, `src/${page}.html`),
     filename: `${page}.html`,
-    chunks: page
+    chunks: [page]
   }))),
   devServer: {
     static: {
