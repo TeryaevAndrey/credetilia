@@ -4,6 +4,8 @@
 @import "./form.css";
 @import "./blog.css";
 @import "./expectation.css";
+@import "./fid.css";
+@import "./redirect.css";
 
 * {
   font-family: "Open Sans", sans-serif;
