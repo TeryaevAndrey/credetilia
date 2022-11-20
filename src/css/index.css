@@ -3,6 +3,7 @@
 @import "./main-page.css";
 @import "./form.css";
 @import "./blog.css";
+@import "./expectation.css";
 
 * {
   font-family: "Open Sans", sans-serif;

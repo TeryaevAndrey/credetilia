@@ -1,0 +1,49 @@
+.expectation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.expectation p {
+  text-align: center;
+}
+
+.circles {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.circles span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #0049FF;
+  border-radius: 50%;
+}
+
+.circles span:first-child {
+  animation: circle 1s linear infinite;
+}
+
+.circles span:last-child {
+  animation: circle 2s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
