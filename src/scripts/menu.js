@@ -6,9 +6,8 @@ burger.addEventListener("click", () => {
   headerAuth.classList.toggle("active");
 });
 
-headerLinks.forEach(link => {
+headerLinks.forEach((link) => {
   link.addEventListener("click", () => {
     headerAuth.classList.remove("active");
   });
 });
-

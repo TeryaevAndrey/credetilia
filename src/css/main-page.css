@@ -17,7 +17,7 @@
 .banner__header-text {
   font-size: 18px;
   font-weight: 600;
-  color: #0049FF;
+  color: #0049ff;
 }
 
 .banner__header-title {
@@ -37,7 +37,7 @@
 }
 
 .banner__header-subtext span {
-  color: #0049FF;
+  color: #0049ff;
 }
 
 .banner__form {
@@ -54,7 +54,7 @@
 
 .banner__form-value {
   padding: 5px 55px;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   box-shadow: 0px 2.4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
   text-align: center;
@@ -79,12 +79,12 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #0049FF;
+  background-color: #0049ff;
   border: none;
 }
 
 .banner__form-range::-moz-range-progress {
-  background-color: #0049FF;
+  background-color: #0049ff;
 }
 
 .range-value-list {
@@ -118,14 +118,14 @@
   color: #fff;
   margin: 10px auto 0 auto;
   padding: 11px 28px;
-  background-color: #09D171;
+  background-color: #09d171;
   min-height: 48px;
   border-radius: 6px;
 }
 
 .hiring {
   padding: 24px 0 50px;
-  background-color: #0049FF;
+  background-color: #0049ff;
 }
 
 .hiring__title.title {
@@ -152,7 +152,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px 18px;
-  background-color: #195BFE;
+  background-color: #195bfe;
   box-shadow: 0px 3.0691px 15.3455px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
@@ -164,7 +164,7 @@
   align-items: center;
   width: 68px;
   height: 68px;
-  background-color: #306BFE;
+  background-color: #306bfe;
   border-radius: 8px;
 }
 
@@ -208,7 +208,7 @@
 .credits__info-title {
   font-size: 28px;
   font-weight: 700;
-  color: #0049FF;
+  color: #0049ff;
   margin-top: 5px;
 }
 
@@ -233,7 +233,7 @@
 
 .credits__info-btn {
   padding: 13px 59px;
-  background-color: #0049FF;
+  background-color: #0049ff;
   max-width: 280px;
   min-height: 50px;
   border-radius: 8px;
@@ -270,7 +270,7 @@
   padding: 20px 18px;
   box-shadow: 0px 3.06553px 15.3276px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  color: #0049FF;
+  color: #0049ff;
 }
 
 .reasons .img-wrapper {
@@ -348,7 +348,7 @@
 .reviews__item-info {
   display: flex;
   flex-direction: column;
-  color: #1A1D27;
+  color: #1a1d27;
 }
 
 .reviews__item-title {
@@ -405,7 +405,7 @@
   width: 100%;
   min-height: 40px;
   background-color: #fff;
-  color: #0049FF;
+  color: #0049ff;
   font-size: 18px;
   font-weight: 700;
   padding: 8 58px;
@@ -447,13 +447,12 @@
   font-weight: 400;
   margin-bottom: auto;
   margin-top: 5px;
-
 }
 
 .blog__item-link {
   font-size: 13px;
   font-weight: 700;
-  color: #0049FF;
+  color: #0049ff;
   text-transform: uppercase;
 }
 
@@ -533,8 +532,8 @@
   justify-content: center;
   align-items: center;
   gap: 120px;
-  width: 100%; 
-  background-color: #F8F8F899;
+  width: 100%;
+  background-color: #f8f8f899;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
 }
@@ -561,12 +560,12 @@
   margin-top: 3px;
 }
 
-@media(min-width: 875px) {
+@media (min-width: 875px) {
   .hiring__list {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  } 
+  }
 
   .credits__inner {
     display: flex;
@@ -599,7 +598,7 @@
   .banner__inner {
     flex-direction: row;
     align-items: center;
-    gap: 30px
+    gap: 30px;
   }
 
   .banner__header {
@@ -622,7 +621,7 @@
   .banner__form {
     max-width: 500px;
     width: 100%;
-    background-color: #F1F1F1CC;
+    background-color: #f1f1f1cc;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
     padding-bottom: 20px;
   }
@@ -649,7 +648,7 @@
   }
 }
 
-@media(min-width: 1150px) {
+@media (min-width: 1150px) {
   .banner {
     padding-bottom: 0;
   }
@@ -663,7 +662,7 @@
     padding-top: 75px;
     padding-bottom: 0;
   }
-  
+
   .banner__header-title {
     font-size: 40px;
     font-weight: 600;
@@ -703,11 +702,11 @@
   }
 }
 
-@media(min-width: 400px) {
+@media (min-width: 400px) {
   .reviews__item {
     width: auto;
   }
-  
+
   .blog__item {
     width: auto;
     height: auto;

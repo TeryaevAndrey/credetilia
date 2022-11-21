@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.burger { 
+.burger {
   cursor: pointer;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .header__inner-btn {
-  background-color: #0049FF;
+  background-color: #0049ff;
   font-size: 14px;
   font-weight: 600;
   color: #fff;
@@ -28,7 +28,7 @@
   margin-right: 20px;
 }
 
-@media(min-width: 875px) {
+@media (min-width: 875px) {
   .burger {
     display: block;
   }
@@ -71,7 +71,7 @@
   } */
 }
 
-@media(min-width: 350px) {
+@media (min-width: 350px) {
   .header__auth {
     display: flex;
     position: absolute;
@@ -94,7 +94,7 @@
   }
 }
 
-@media(min-width: 875px) {
+@media (min-width: 875px) {
   .header__auth {
     flex-direction: row;
     gap: 10px;

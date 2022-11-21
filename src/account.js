@@ -10,7 +10,7 @@ accountRange.addEventListener("input", (e) => {
   value.textContent = e.target.value + "€";
 });
 
-points.forEach(point => {
+points.forEach((point) => {
   point.addEventListener("click", (e) => {
     accountRange.value = e.target.dataset.value;
     value.textContent = e.target.dataset.value + "€";

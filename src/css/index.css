@@ -59,11 +59,11 @@ li {
 .title {
   font-size: 22px;
   font-weight: 700;
-  color: #0049FF;
+  color: #0049ff;
   text-align: center;
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     padding: 0 30px;
   }
