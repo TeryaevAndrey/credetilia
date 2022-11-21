@@ -52,8 +52,25 @@
   font-weight: 400;
 }
 
+.banner__value-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 243px;
+  margin: 20px auto 0 auto;
+}
+
+.banner__value-wrapper span {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  font-size: 36px;
+  font-weight: 700;
+}
+
 .banner__form-value {
-  padding: 5px 55px;
+  padding: 5px 74px 5px 57px;
   background-color: #fbfbfb;
   box-shadow: 0px 2.4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
@@ -61,7 +78,10 @@
   font-size: 36px;
   font-weight: 700;
   max-width: 243px;
-  margin: 20px auto 0 auto;
+}
+
+.banner__form-value.without-icon {
+  padding: 5px 55px;
 }
 
 .banner__form .input-wrapper {
@@ -121,6 +141,19 @@
   background-color: #09d171;
   min-height: 48px;
   border-radius: 6px;
+}
+
+.calc-wrapper.banner__form {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  background-color: #fff;
+  box-shadow: none;
+  padding-bottom: 50px;
+  padding: 0;
 }
 
 .hiring {
@@ -650,7 +683,7 @@
 
 @media (min-width: 1150px) {
   .banner {
-    padding-bottom: 0;
+    padding-bottom: 35px;
   }
 
   .banner__inner {

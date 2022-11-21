@@ -13,10 +13,6 @@
   cursor: pointer;
 }
 
-.header__auth {
-  display: none;
-}
-
 .header__inner-btn {
   background-color: #0049ff;
   font-size: 14px;
