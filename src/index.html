@@ -68,7 +68,7 @@
                   class="banner__form-range"
                   id="rangeInput"
                   type="range"
-                  name="range"
+                  name="amount"
                   min="0"
                   max="50000"
                   step="10"
@@ -77,6 +77,35 @@
                 <div class="range-value-list">
                   <span class="range-value-item min">0€</span>
                   <span class="range-value-item max">50000€</span>
+                </div>
+              </div>
+              <input
+                class="banner__form-value"
+                id="rangeMesesValue"
+                type="number"
+                name="range-meses-value"
+                value="3"
+              />
+              <div class="input-wrapper">
+                <input
+                  class="banner__form-range"
+                  id="rangeMesesInput"
+                  type="range"
+                  name="meses"
+                  min="3"
+                  max="96"
+                  step="1"
+                  value="3"
+                />
+                <div class="range-value-list">
+                  <span class="range-value-item min">3 meses</span>
+                  <span class="range-value-item max">96 meses</span>
+                </div>
+                <div class="input-wrapper-result">
+                  <span>TIN: 9,00%</span>
+                  <span>TAE: 9,38%</span>
+                  <span id="monthlyFee">Cuota mensual: 590,26 €</span>
+                  <span id="totalDue">Total adeudado: 50.172,42 €</span>
                 </div>
               </div>
               <button class="banner__form-btn" type="submit">
