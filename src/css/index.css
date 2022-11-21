@@ -6,6 +6,7 @@
 @import "./expectation.css";
 @import "./fid.css";
 @import "./redirect.css";
+@import "./account.css";
 
 * {
   font-family: "Open Sans", sans-serif;
@@ -60,4 +61,10 @@ li {
   font-weight: 700;
   color: #0049FF;
   text-align: center;
+}
+
+@media(min-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
 }

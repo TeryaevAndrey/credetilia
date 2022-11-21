@@ -1,0 +1,148 @@
+.account {
+  padding: 50px 0;
+}
+
+.account__form {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.account__form-title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.account__range-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10px;
+  background-color: #C9C9C9;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+
+.account__range {
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  background-color: #C9C9C9;
+  border-radius: 10px;
+}
+
+
+.account__range-value {
+  position: absolute;
+  top: -30px;
+  background-color: #0049FF;
+  color: #fff;
+  border-radius: 3px;
+  padding: 3px 10px;
+}
+
+.account__range::-webkit-slider-thumb {
+  position: relative;
+  -webkit-appearance: none;
+  width: 50px;
+  height: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #0049FF;
+  z-index: 2;
+}
+
+.account__range-wrapper {
+  position: relative;
+}
+
+.account__range-point {
+  position: absolute;
+  display: block;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid #9E9E9E;
+  width: 50px;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.account__range-point span {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  text-align: center;
+}
+
+.account__range-wrapper span:first-child {
+  left: 0;
+}
+
+.account__range-wrapper span:nth-child(even) {
+  left: 49.3%;
+  transform: translateX(-50%);
+}
+
+.account__range-wrapper span:last-child {
+  right: 0;
+}
+
+.account__form-progress span.active {
+  background-color: #0049FF;
+  border: none;
+}
+
+.account__form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.account__form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.account__form-btn {
+  padding: 15px 30px;
+  max-width: 305px;
+  width: 100%;
+  min-height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0049FF;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.account__form-text {
+  max-width: 305px;
+  font-size: 14px;
+  color: #C9C9C9;
+}
+
+.account__footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #C9C9C9;
+  margin-top: 50px;
+}
+
+@media(max-width: 670px) {
+  .account__form-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

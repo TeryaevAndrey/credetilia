@@ -13,10 +13,13 @@ rangeInput.addEventListener("input", (e) => {
 
 rangeValue.addEventListener("input", (e) => {
   rangeInput.value = parseInt(e.target.value);
+
+  const value = parseInt(e.target.value) || 1;
+  e.target.value = value + "€";
 });
 
 submitRange.addEventListener("click", (e) => {
   e.preventDefault();
 
-  window.location.href="form.html"
+  window.location.href="form.html";
 });
