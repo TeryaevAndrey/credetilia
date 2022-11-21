@@ -55,6 +55,14 @@
   margin-top: 25px;
 }
 
+.form__inputs-date {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 25px;
+}
+
 .form__radio {
   position: relative;
   max-width: 305px;

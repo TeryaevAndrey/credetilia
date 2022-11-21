@@ -23,6 +23,18 @@
     "webpack-dev-server": "^4.11.1"
   },
   "devDependencies": {
-    "css-loader": "^6.7.2"
-  }
+    "autoprefixer": "^10.4.13",
+    "css-loader": "^6.7.2",
+    "postcss-loader": "^7.0.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "last 2 version",
+    "not dead",
+    "iOS >= 9"
+  ]
 }

@@ -75,6 +75,18 @@
   height: 3px;
 }
 
+.banner__form-range::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #0049FF;
+  border: none;
+}
+
+.banner__form-range::-moz-range-progress {
+  background-color: #0049FF;
+}
+
 .range-value-list {
   display: flex;
   justify-content: space-between;
