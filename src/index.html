@@ -50,19 +50,19 @@
             </div>
             <form class="banner__form">
               <h2 class="banner__form-title">¿Cuánto dinero necesitas?</h2>
-              <div class="banner__value-wrapper">
+              <div class="banner__value-wrapper big">
                 <input
-                class="banner__form-value"
-                type="number"
-                id="fastRangeValue"
-                name="fast-range-value"
-                value="10000"
-              />
-              <span>€</span>
+                  class="banner__form-value big"
+                  type="number"
+                  id="fastRangeValue"
+                  name="fast-range-value"
+                  value="10000"
+                />
+                <span>€</span>
               </div>
-              <div class="input-wrapper">
+              <div class="input-wrapper big">
                 <input
-                  class="banner__form-range"
+                  class="banner__form-range big"
                   type="range"
                   id="fastRangeInput"
                   name="fast-amount"
@@ -71,12 +71,12 @@
                   step="10"
                   value="10000"
                 />
-                <div class="range-value-list">
+                <div class="range-value-list big">
                   <span class="range-value-item min">0€</span>
                   <span class="range-value-item max">50000€</span>
                 </div>
               </div>
-              <button class="banner__form-btn" type="submit">
+              <button class="banner__form-btn big" type="submit">
                 Solicita tu préstamo
               </button>
 
@@ -111,71 +111,89 @@
               </div>
             </form>
           </div>
-          <form class="calc-wrapper banner__form">
-            <h2 class="banner__form-title">¿Cuánto dinero necesitas?</h2>
-            <div class="banner__value-wrapper">
+        </div>
+      </section>
+    
+        <form class="calc-wrapper banner__form">
+          <div class="banner__form-inner">
+            <h2 class="banner__form-title">Calcula tu prestamo</h2>
+          <div class="banner__values-wrapper">
+            <div class="banner__value-block">
+              <span class="banner__value-title">Importe a financiar:</span>
+              <div class="banner__value-wrapper">
                 <input
-                class="banner__form-value"
-                type="number"
-                id="rangeValue"
-                name="fast-range-value"
-                value="10000"
-              />
-              <span>€</span>
+                  class="banner__form-value"
+                  type="number"
+                  id="rangeValue"
+                  name="fast-range-value"
+                  value="10000"
+                />
+                <span>€</span>
               </div>
-            <div class="input-wrapper">
-              <input
-                class="banner__form-range"
-                id="rangeInput"
-                type="range"
-                name="amount"
-                min="0"
-                max="50000"
-                step="10"
-                value="10000"
-              />
-              <div class="range-value-list">
-                <span class="range-value-item min">0€</span>
-                <span class="range-value-item max">50000€</span>
-              </div>
-            </div>
-            <div class="banner__value-wrapper">
-              <input
-              class="banner__form-value without-icon"
-              type="number"
-              id="rangeMesesValue"
-              name="fast-range-value"
-              value="3"
-            />
-            </div>
-            <div class="input-wrapper">
-              <input
-                class="banner__form-range"
-                id="rangeMesesInput"
-                type="range"
-                name="meses"
-                min="3"
-                max="96"
-                step="1"
-                value="3"
-              />
-              <div class="range-value-list">
-                <span class="range-value-item min">3 meses</span>
-                <span class="range-value-item max">96 meses</span>
-              </div>
-              <div class="input-wrapper-result">
-                <span>TIN: 9,00%</span>
-                <span>TAE: 9,38%</span>
-                <span id="monthlyFee">Cuota mensual: 590,26 €</span>
-                <span id="totalDue">Total adeudado: 50.172,42 €</span>
+              <div class="input-wrapper">
+                <input
+                  class="banner__form-range"
+                  id="rangeInput"
+                  type="range"
+                  name="amount"
+                  min="0"
+                  max="50000"
+                  step="10"
+                  value="10000"
+                />
+                <div class="range-value-list">
+                  <span class="range-value-item min">0€</span>
+                  <span class="range-value-item max">50000€</span>
+                </div>
               </div>
             </div>
+            <div class="banner__value-block">
+              <span class="banner__value-title">Meses a pagar:</span>
+              <div class="banner__value-wrapper">
+                <input
+                  class="banner__form-value without-icon"
+                  type="number"
+                  id="rangeMesesValue"
+                  name="fast-range-value"
+                  value="3"
+                />
+              </div>
+              <div class="input-wrapper">
+                <input
+                  class="banner__form-range"
+                  id="rangeMesesInput"
+                  type="range"
+                  name="meses"
+                  min="3"
+                  max="96"
+                  step="1"
+                  value="3"
+                />
+                <div class="range-value-list">
+                  <span class="range-value-item min">3</span>
+                  <span class="range-value-item max">96</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner__form-footer">
+            <div class="input-wrapper-result">
+              <span>TIN: 9,00%</span>
+              <span>TAE: 9,38%</span>
+              <span id="monthlyFee">Cuota mensual: 590,26 €</span>
+              <span id="totalDue">Total adeudado: 50.172,42 €</span>
+            </div>
+            <p class="banner__form-text">
+              QuéPréstamo no te cobrará por usar sus servicios. QuéPréstamo pone a tu disposición préstamos personales flexibles con un plazo de devolución de 3 meses hasta 6 años, con una TAE mínima de 7% y una TAE máxima de 35%. Por ejemplo, si solicitas un préstamo de 5.000 € a devolver en 24 meses, se te abonarán 4.825 € en tu cuenta bancaria (5.000 € menos los gastos de gestión de la entidad financiera, que en este caso serán de un 3,5% sobre el importe total). El importe total a devolver será 5.482,17 € con una TAE de 9,38%. Oferta pendiente de estudio por parte de la entidad financiera y firma del contrato.
+  
+            </p>
             <button class="banner__form-btn" type="submit">
               Solicita tu préstamo
             </button>
-          </form>
-        </div>
-      </section>
+          </div>
+          </div>
+        </form>
+    
       <section class="hiring">
         <div class="container">
           <div class="hiring__inner">
@@ -323,7 +341,7 @@
         </div>
       </section>
       <section class="reviews">
-        <div class="container">
+        <div class="container no-padding">
           <div class="reviews__inner">
             <h3 class="reviews__title title">Valora las últimas reseñas</h3>
 

@@ -56,9 +56,15 @@ li {
   margin: 0 auto;
 }
 
+.container.no-padding {
+  padding: 0;
+}
+
 .title {
   font-size: 22px;
   font-weight: 700;
+  line-height: 29px;
+  letter-spacing: -0.05em;
   color: #0049ff;
   text-align: center;
 }
