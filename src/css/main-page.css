@@ -138,6 +138,7 @@
   font-size: 36px;
   max-width: 243px;
   min-height: 61px;
+  box-shadow: 0px 2.4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .banner__form-value.without-icon {
@@ -783,11 +784,14 @@
 .advantages__item-title {
   font-size: 14px;
   font-weight: 700;
+  line-height: 18px;
+  margin-top: 4px;
 }
 
 .advantages__item-text {
   font-size: 12px;
   font-weight: 400;
+  line-height: 16px;
   color: #696464;
   margin-top: 3px;
 }
@@ -883,7 +887,12 @@
 
 @media (min-width: 1150px) {
   .banner {
-    padding-bottom: 35px;
+    padding-bottom: 55px;
+    padding-top: 0;
+    background-image: url("../images/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
   }
 
   .banner__inner {
@@ -902,13 +911,130 @@
     gap: 88px;
     margin-top: 34px;
     width: 100%;
+    justify-content: center;
+  }
+
+  .calc-wrapper .range-value-list {
+    max-width: 471px;
+  }
+
+  .calc-wrapper .range-value-item {
+    margin-top: 2px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+  }
+
+  .calc-wrapper .banner__form-inner {
+    max-width: 1035px;
+  }
+
+  .banner__header-text {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
   }
 
   .banner__header-title {
     font-size: 50px;
     font-weight: 600;
     margin-top: 12px;
-    line-height: 50px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+  }
+
+  .banner__header-subtext {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  .banner__value-block:last-child {
+    margin-top: 0;
+  }
+
+  .banner__form-title {
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+  }
+
+  .calc-wrapper .banner__form-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.05em;
+  }
+
+  .banner__value-wrapper.big {
+    max-width: 405px;
+  }
+
+  .banner__value-wrapper.big span {
+    font-size: 60px;
+    right: 90px;
+  }
+
+  .banner__form-value.big {
+    max-width: 100%;
+    min-height: 102px;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 5px 124px 5px 110px;
+    box-shadow: none;
+  }
+
+  .banner__value-title {
+    font-size: 16px;
+  }
+
+  .calc-wrapper .banner__form-btn {
+    max-width: 356px;
+    min-height: 64px;
+    padding: 17px 141px 17px 129px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  .calc-wrapper .banner__form-value {
+    font-weight: 600;
+  }
+
+  .calc-wrapper .input-wrapper {
+    margin-top: 43px;
+    max-width: 471px;
+  }
+
+  .calc-wrapper .banner__form-range {
+    max-width: 471px;
+  }
+
+  .calc-wrapper .input-wrapper-result {
+    max-width: 100%;
+  }
+
+  .calc-wrapper .input-wrapper-result span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .banner__form .input-wrapper {
+    width: 471px;
+  }
+
+  .banner__form-text {
+    max-width: 928px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .calc-wrapper .banner__form-footer .banner__form-text {
+    margin-top: 22px;
   }
 
   .advantages__list {
