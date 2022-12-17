@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.logo {
+  margin-top: 10px;
+}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -73,7 +77,7 @@
     position: absolute;
     flex-direction: column;
     background-color: #fff;
-    top: -100%;
+    top: -130%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
