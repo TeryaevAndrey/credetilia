@@ -1,5 +1,5 @@
 .form {
-  padding: 25px 0 35px;
+  padding: 33px 0 30px;
   background-color: #f1f1f199;
 }
 
@@ -20,6 +20,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 170px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 .form__arrows-item {
@@ -225,7 +228,7 @@
 
   .form__arrows {
     width: 100%;
-    margin: 0 auto;
+    max-width: 100%;
   }
 }
 
