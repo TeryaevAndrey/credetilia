@@ -2,11 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 160px;
 }
 
 .ok__title {
@@ -24,4 +21,19 @@
   line-height: 26px;
   letter-spacing: -0.01em;
   text-align: center;
+}
+
+@media (min-width: 875px) {
+  .ok {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .ok-body .footer,
+  .ok-body .footer-desktop {
+    display: none;
+  }
 }
