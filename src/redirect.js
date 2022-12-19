@@ -1,2 +1,2 @@
-import "./css/redirect.css";
-import "./css/expectation.css";
+import "./css/index.css";
+import "./scripts/menu";

@@ -1,5 +1,6 @@
 @import "./fonts.css";
 @import "./header.css";
+@import "./loader.css";
 @import "./main-page.css";
 @import "./form.css";
 @import "./blog.css";
@@ -7,6 +8,7 @@
 @import "./fid.css";
 @import "./redirect.css";
 @import "./account.css";
+@import "./ok.css";
 
 * {
   font-family: "Open Sans", sans-serif;

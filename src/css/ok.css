@@ -1,4 +1,4 @@
-.expectation {
+.ok {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,22 +9,19 @@
   width: 100%;
 }
 
-.expectation__title {
-  font-family: "Inter", sans-serif;
+.ok__title {
   font-size: 28px;
   font-weight: 600;
   line-height: 26px;
   letter-spacing: -0.01em;
-  margin: 0;
-  margin-top: 28px; 
+  margin-top: 28px;
   text-align: center;
 }
 
-.expectation__text {
+.ok__text {
+  margin-top: 19px;
   font-size: 28px;
   line-height: 26px;
   letter-spacing: -0.01em;
-  margin: 0;
-  margin-top: 19px; 
   text-align: center;
 }
