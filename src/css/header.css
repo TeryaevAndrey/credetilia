@@ -1,6 +1,11 @@
 .header {
   padding: 23px 0;
   position: relative;
+  box-shadow: 0px 5.0719px 25.3595px rgba(0, 0, 0, 0.05);
+}
+
+.header.no-shadow {
+  box-shadow: none;
 }
 
 .logo {
@@ -98,5 +103,11 @@
   .header__auth {
     flex-direction: row;
     gap: 10px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .header {
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
   }
 }

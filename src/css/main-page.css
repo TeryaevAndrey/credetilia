@@ -1,7 +1,12 @@
 .banner {
   padding-top: 23px;
   padding-bottom: 35px;
-  background-color: #FEFEFE;
+  background-color: #f1f1f199;
+  position: relative;
+}
+
+.banner .container {
+  padding: 0;
 }
 
 .banner__inner {
@@ -51,6 +56,9 @@
   flex-direction: column;
   text-align: center;
   padding-top: 29px;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0px -4px 5px 0px rgb(0 0 0 / 7%);
 }
 
 .banner__form-title {
@@ -147,9 +155,9 @@
 
 .banner__form-value::-webkit-outer-spin-button,
 .banner__form-value::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
 .banner__form .input-wrapper {
@@ -180,7 +188,7 @@
 }
 
 .banner__form-range::-moz-range-track {
-  background-color: #DEDEDE;
+  background-color: #dedede;
   border: none;
   height: 5px;
 }
@@ -275,13 +283,13 @@
 }
 
 .calc-wrapper.banner__form {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   max-width: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   box-shadow: none;
   padding-bottom: 50px;
   padding: 0;
@@ -295,7 +303,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   box-shadow: none;
   padding-bottom: 50px;
   padding: 0;
@@ -305,7 +313,7 @@
 .calc-wrapper .banner__form-btn {
   max-width: 282px;
   min-height: 52px;
-  background-color: #0049FF;
+  background-color: #0049ff;
   padding: 13px 58px;
 }
 
@@ -328,7 +336,6 @@
   order: 3;
   margin-top: 11px;
 }
-
 
 .hiring {
   padding: 24px 0 50px;
@@ -809,7 +816,7 @@
 .footer-desktop {
   display: none;
   padding: 73px 0 45px;
-  background-color: #0049FF;
+  background-color: #0049ff;
   background-image: url("../images/footer-circles.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -880,12 +887,16 @@
 .footer-desktop .socials {
   margin-top: 0;
 }
-.socials__link {
-}
-.socials__img {
-}
 
 @media (min-width: 875px) {
+  .banner .container {
+    padding: 0 20px;
+  }
+
+  .banner__form {
+    box-shadow: none;
+  }
+
   .hiring__list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -951,6 +962,7 @@
     background-color: #f1f1f1cc;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
     padding-bottom: 20px;
+    position: relative;
   }
 
   .banner__header-subtext {
@@ -1151,7 +1163,7 @@
 
   .credits {
     padding: 23px 0 74px;
-    background-color: #FDFDFD;
+    background-color: #fdfdfd;
     background-image: url("../images/credits-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1261,7 +1273,7 @@
     margin-top: 40px;
   }
 
-  .reviews__item { 
+  .reviews__item {
     max-width: 403px;
     min-height: 277px;
     padding: 15px 44px;
@@ -1327,7 +1339,7 @@
 
   .blog__inner {
     padding-bottom: 80px;
-    border-bottom: 1px solid #D3D3D3;
+    border-bottom: 1px solid #d3d3d3;
   }
 
   .blog__item {

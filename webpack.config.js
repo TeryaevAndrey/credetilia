@@ -12,7 +12,7 @@ const pages = [
   "redirect",
   "fid",
   "account",
-  "ok"
+  "ok",
 ];
 
 module.exports = {

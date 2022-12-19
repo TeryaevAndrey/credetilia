@@ -8,16 +8,15 @@ let currentTab = 0;
 let widthProgressBar = (90 - startWidthProgressBar) / (formTabs.length - 1);
 let step = 90 / formTabs.length;
 
-if(currentTab === 0) {
+if (currentTab === 0) {
   back.style.display = "none";
   next.style.marginLeft = "auto";
 } else {
   back.style.display = "block";
-  next.style.marginLeft = "0"
-
+  next.style.marginLeft = "0";
 }
 
-if(currentTab === 2) {
+if (currentTab === 2) {
   next.style.display = "none";
   back.style.marginRight = "auto";
 } else {
@@ -34,15 +33,15 @@ const nextTab = () => {
       tab.classList.remove("active");
     });
     formTabs[currentTab].classList.add("active");
-    if(currentTab === 0) {
+    if (currentTab === 0) {
       back.style.display = "none";
       next.style.marginLeft = "auto";
     } else {
       back.style.display = "block";
-      next.style.marginLeft = "0"
+      next.style.marginLeft = "0";
     }
 
-    if(currentTab === 2) {
+    if (currentTab === 2) {
       next.style.display = "none";
       back.style.marginRight = "auto";
     } else {
@@ -62,15 +61,15 @@ const backTab = () => {
     currentTab -= 1;
     formTabs[currentTab].classList.add("active");
 
-    if(currentTab === 0) {
+    if (currentTab === 0) {
       back.style.display = "none";
       next.style.marginLeft = "auto";
     } else {
       back.style.display = "block";
-      next.style.marginLeft = "0"
+      next.style.marginLeft = "0";
     }
-    
-    if(currentTab === 2) {
+
+    if (currentTab === 2) {
       next.style.display = "none";
       back.style.marginRight = "auto";
     } else {

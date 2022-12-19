@@ -30,7 +30,7 @@
   letter-spacing: -0.01em;
 }
 
-@media(min-width: 500px) {
+@media (min-width: 500px) {
   .expectation__title {
     font-size: 28px;
     font-weight: 600;

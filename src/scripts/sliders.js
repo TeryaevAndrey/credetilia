@@ -24,7 +24,7 @@ const swiper = new Swiper(".reviews .swiper", {
     1150: {
       spaceBetween: 75,
       slidesPerView: 3,
-    }
+    },
   },
 });
 
@@ -50,6 +50,6 @@ const blogSwiper = new Swiper(".blog .swiper", {
     1150: {
       spaceBetween: 75,
       slidesPerView: 3,
-    }
+    },
   },
 });

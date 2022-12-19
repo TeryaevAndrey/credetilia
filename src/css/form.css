@@ -212,7 +212,7 @@
   margin-top: 10px;
 }
 
-@media(max-width: 630px) {
+@media (max-width: 630px) {
   .form__inputs-date,
   .form__inputs-list {
     flex-direction: column;
@@ -232,7 +232,7 @@
   }
 }
 
-@media(min-width: 1150px) {
+@media (min-width: 1150px) {
   .form {
     height: 100%;
   }

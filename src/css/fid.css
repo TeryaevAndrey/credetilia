@@ -33,7 +33,7 @@
 
 .fid__rating {
   padding: 4px 10px;
-  background-color: #09D171;
+  background-color: #09d171;
   max-width: 218px;
   min-height: 27px;
   display: flex;
@@ -49,7 +49,7 @@
 
 .fid__rating-text {
   margin-left: 4px;
-  font-size: 12px; 
+  font-size: 12px;
   font-weight: 600;
   line-height: 16px;
   letter-spacing: -0.05em;
@@ -92,7 +92,7 @@
   letter-spacing: -0.03em;
 }
 .fid__item-btn {
-  background-color: #0049FF;
+  background-color: #0049ff;
   max-width: 240px;
   width: 100%;
   min-height: 44px;
@@ -112,11 +112,11 @@
   letter-spacing: -0.05em;
   color: #696464;
   padding-top: 11px;
-  border-top: 1px solid #C6C6C6;
+  border-top: 1px solid #c6c6c6;
 }
 
 .fid__item.small {
-  padding: 10px 26px 15px 26px;;
+  padding: 10px 26px 15px 26px;
 }
 
 .fid__item.small .fid__item-title {
@@ -135,7 +135,7 @@
   margin-top: 14px;
 }
 
-@media(min-width: 1150px) {
+@media (min-width: 1150px) {
   .fid {
     padding-top: 130px;
     padding-bottom: 90px;
@@ -183,7 +183,7 @@
     align-items: center;
     margin-bottom: 58px;
   }
-  
+
   .fid__item-info {
     flex-direction: row;
     margin-top: 0;
@@ -234,7 +234,7 @@
     align-items: center;
     padding: 22px 69px 22px 38px;
   }
-  
+
   .fid__item.small .fid__item-img {
     width: 44px;
     height: 40px;

@@ -182,10 +182,10 @@
   }
 }
 
-@media(min-width: 1500px) {
+@media (min-width: 1500px) {
   .account {
     padding-top: 103px;
-    padding-bottom: 43px; 
+    padding-bottom: 43px;
     background-image: url("../images/account-bg.jpg");
     background-repeat: no-repeat;
     background-position: right;
