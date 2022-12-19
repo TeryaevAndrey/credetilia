@@ -1,19 +1,24 @@
 .road {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
   margin-top: 45px;
+  gap: 19px;
+  margin-top: 30px;
 }
 
 .redirect__title {
   font-family: "Inter", sans-serif;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 600;
-  line-height: 26px;
+  line-height: 16px;
   letter-spacing: -0.01em;
-  margin-top: 28px;
+  margin-top: 13px;
+}
+
+.road__img {
+  max-width: 101px;
+  min-height: 14px;
 }
 
 @keyframes redirectLoader {
@@ -33,13 +38,13 @@
 .road__loader {
   display: flex;
   align-items: center; 
-  gap: 10px;
+  gap: 4px;
 }
 
 .road__loader div {
-  width: 28px;
-  height: 5px;
-  border-radius: 20px;
+  width: 12px;
+  height: 2px;
+  border-radius: 9px;
   background-color: #D9D9D9;
   animation: redirectLoader linear 1.5s infinite;
 }
@@ -60,8 +65,31 @@
   animation-delay: 1.5s;
 }
 
-@media(min-width: 500px) {
+@media(min-width: 640px) {
+  .redirect__title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 28px;
+  }
+
   .road {
-    flex-direction: row;
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .road__img {
+    max-width: 234px;
+    min-height: 34px;
+  }
+
+  .road__loader {
+    gap: 10px;
+  }
+
+  .road__loader div {
+    width: 28px;
+    height: 5px;
+    border-radius: 20px;
   }
 }
