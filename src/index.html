@@ -50,19 +50,19 @@
             </div>
             <form class="banner__form">
               <h2 class="banner__form-title">¿Cuánto dinero necesitas?</h2>
-              <div class="banner__value-wrapper">
+              <div class="banner__value-wrapper big">
                 <input
-                class="banner__form-value"
-                type="number"
-                id="fastRangeValue"
-                name="fast-range-value"
-                value="10000"
-              />
-              <span>€</span>
+                  class="banner__form-value big"
+                  type="number"
+                  id="fastRangeValue"
+                  name="fast-range-value"
+                  value="10000"
+                />
+                <span>€</span>
               </div>
-              <div class="input-wrapper">
+              <div class="input-wrapper big">
                 <input
-                  class="banner__form-range"
+                  class="banner__form-range big"
                   type="range"
                   id="fastRangeInput"
                   name="fast-amount"
@@ -71,12 +71,12 @@
                   step="10"
                   value="10000"
                 />
-                <div class="range-value-list">
+                <div class="range-value-list big">
                   <span class="range-value-item min">0€</span>
                   <span class="range-value-item max">50000€</span>
                 </div>
               </div>
-              <button class="banner__form-btn" type="submit">
+              <button class="banner__form-btn big" type="submit">
                 Solicita tu préstamo
               </button>
 
@@ -111,71 +111,97 @@
               </div>
             </form>
           </div>
-          <form class="calc-wrapper banner__form">
-            <h2 class="banner__form-title">¿Cuánto dinero necesitas?</h2>
-            <div class="banner__value-wrapper">
+        </div>
+      </section>
+
+      <form class="calc-wrapper banner__form">
+        <div class="banner__form-inner">
+          <h2 class="banner__form-title">Calcula tu prestamo</h2>
+          <div class="banner__values-wrapper">
+            <div class="banner__value-block">
+              <span class="banner__value-title">Importe a financiar:</span>
+              <div class="banner__value-wrapper">
                 <input
-                class="banner__form-value"
-                type="number"
-                id="rangeValue"
-                name="fast-range-value"
-                value="10000"
-              />
-              <span>€</span>
+                  class="banner__form-value"
+                  type="number"
+                  id="rangeValue"
+                  name="fast-range-value"
+                  value="10000"
+                />
+                <span>€</span>
               </div>
-            <div class="input-wrapper">
-              <input
-                class="banner__form-range"
-                id="rangeInput"
-                type="range"
-                name="amount"
-                min="0"
-                max="50000"
-                step="10"
-                value="10000"
-              />
-              <div class="range-value-list">
-                <span class="range-value-item min">0€</span>
-                <span class="range-value-item max">50000€</span>
-              </div>
-            </div>
-            <div class="banner__value-wrapper">
-              <input
-              class="banner__form-value without-icon"
-              type="number"
-              id="rangeMesesValue"
-              name="fast-range-value"
-              value="3"
-            />
-            </div>
-            <div class="input-wrapper">
-              <input
-                class="banner__form-range"
-                id="rangeMesesInput"
-                type="range"
-                name="meses"
-                min="3"
-                max="96"
-                step="1"
-                value="3"
-              />
-              <div class="range-value-list">
-                <span class="range-value-item min">3 meses</span>
-                <span class="range-value-item max">96 meses</span>
-              </div>
-              <div class="input-wrapper-result">
-                <span>TIN: 9,00%</span>
-                <span>TAE: 9,38%</span>
-                <span id="monthlyFee">Cuota mensual: 590,26 €</span>
-                <span id="totalDue">Total adeudado: 50.172,42 €</span>
+              <div class="input-wrapper">
+                <input
+                  class="banner__form-range"
+                  id="rangeInput"
+                  type="range"
+                  name="amount"
+                  min="0"
+                  max="50000"
+                  step="10"
+                  value="10000"
+                />
+                <div class="range-value-list">
+                  <span class="range-value-item min">0€</span>
+                  <span class="range-value-item max">50000€</span>
+                </div>
               </div>
             </div>
+            <div class="banner__value-block">
+              <span class="banner__value-title">Meses a pagar:</span>
+              <div class="banner__value-wrapper">
+                <input
+                  class="banner__form-value without-icon"
+                  type="number"
+                  id="rangeMesesValue"
+                  name="fast-range-value"
+                  value="3"
+                />
+              </div>
+              <div class="input-wrapper">
+                <input
+                  class="banner__form-range"
+                  id="rangeMesesInput"
+                  type="range"
+                  name="meses"
+                  min="3"
+                  max="96"
+                  step="1"
+                  value="3"
+                />
+                <div class="range-value-list">
+                  <span class="range-value-item min">3</span>
+                  <span class="range-value-item max">96</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner__form-footer">
+            <div class="input-wrapper-result">
+              <span>TIN: 9,00%</span>
+              <span>TAE: 9,38%</span>
+              <span id="monthlyFee">Cuota mensual: 590,26 €</span>
+              <span id="totalDue">Total adeudado: 50.172,42 €</span>
+            </div>
+            <p class="banner__form-text">
+              QuéPréstamo no te cobrará por usar sus servicios. QuéPréstamo pone
+              a tu disposición préstamos personales flexibles con un plazo de
+              devolución de 3 meses hasta 6 años, con una TAE mínima de 7% y una
+              TAE máxima de 35%. Por ejemplo, si solicitas un préstamo de 5.000
+              € a devolver en 24 meses, se te abonarán 4.825 € en tu cuenta
+              bancaria (5.000 € menos los gastos de gestión de la entidad
+              financiera, que en este caso serán de un 3,5% sobre el importe
+              total). El importe total a devolver será 5.482,17 € con una TAE de
+              9,38%. Oferta pendiente de estudio por parte de la entidad
+              financiera y firma del contrato.
+            </p>
             <button class="banner__form-btn" type="submit">
               Solicita tu préstamo
             </button>
-          </form>
+          </div>
         </div>
-      </section>
+      </form>
+
       <section class="hiring">
         <div class="container">
           <div class="hiring__inner">
@@ -239,9 +265,12 @@
               src="./images/credits-img.png"
               alt="credits"
             />
+
             <div class="credits__info">
               <h3 class="credits__info-suptitle">Préstamos inmediatos</h3>
-              <h4 class="credits__info-title">¿Lo quieres? Lo tienes</h4>
+              <h4 class="credits__info-title">
+                ¿Lo quieres? <span>Lo tienes</span>
+              </h4>
               <p class="credits__info-text">
                 Con Creditilia el acceso a tu préstamo será muy fácil.
                 Creditillia es un nuevo servicio ágil y 100% digital con el que
@@ -323,7 +352,7 @@
         </div>
       </section>
       <section class="reviews">
-        <div class="container">
+        <div class="container no-padding">
           <div class="reviews__inner">
             <h3 class="reviews__title title">Valora las últimas reseñas</h3>
 
@@ -505,7 +534,7 @@
         </div>
       </div>
       <section class="blog">
-        <div class="container">
+        <div class="container no-padding">
           <div class="blog__inner">
             <h3 class="blog__title title">Blog</h3>
             <!-- Slider main container -->
@@ -609,6 +638,101 @@
             </li>
             <li class="footer__links-item">
               <a class="footer__links-link" href="#"> Política de Cookies </a>
+            </li>
+          </ul>
+          <div class="socials">
+            <a class="socials__link" href="#">
+              <img
+                class="socials__img"
+                src="./images/facebook.svg"
+                alt="facebook"
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
+                class="socials__img"
+                src="./images/twitter.svg"
+                alt="twitter"
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
+                class="socials__img"
+                src="./images/google.svg"
+                alt="google"
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
+                class="socials__img"
+                src="./images/youtube.svg"
+                alt="youtube"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="footer-desktop">
+      <div class="container">
+        <div class="footer-desktop__inner">
+          <a class="footer__logo" href="#">
+            <img
+              class="footer__logo-img"
+              src="./images/footer-logo.svg"
+              alt="logo"
+            />
+          </a>
+          <ul class="footer-desktop__list">
+            <li class="footer-desktop__list-item">Préstamos</li>
+            <li class="footer-desktop__list-item">Créditos</li>
+            <li class="footer-desktop__list-item">Tarjetas</li>
+          </ul>
+        </div>
+        <div class="footer-desktop__text-wrapper">
+          <div>
+            <p class="footer-desktop__text">
+              © 2022 Prestalo Online S.L. Carrer de Tuset, 8, 08006, Barcelona,
+              España. Inscripción en el Registro Mercantil de Barcelona. Tomo
+              46606, Folio 37, Hoja 525271. Prestalo ofrece un servicio de
+              intermediación financiera entre los consumidores y los bancos.
+              Cualquiera puede acceder a la simulación de la oferta de
+              diferentes compañías aunque no tenga una cuenta con las mismas.
+            </p>
+            <p class="footer-desktop__text">
+              El funcionamiento de la plataforma es muy sencillo. Se debe
+              completar la solicitud, ésta información se envía a las entidades
+              financieras a tiempo real con el fin de que la herramienta
+              compare, negocie y escanee las mejores ofertas. Una vez aceptada
+              la propuesta, se ingresa el dinero directamente en la cuenta del
+              cliente.
+            </p>
+          </div>
+          <p class="footer-desktop__text">
+            Ejemplo representativo: Un crédito de 5.000€ a devolver en 60 meses.
+            Interés fijo anual 6,11%. Cuota mensual 96,62 €. Sin comisión de
+            apertura, estudio o por cancelación anticipada con devolución del
+            principal dispuesto. TAE 6,28%. Cantidad total a devolver 5.815,20
+            €. Para los usuarios el uso de este intermediario financiero es
+            gratuito.
+          </p>
+        </div>
+        <div class="footer-desktop__bottom">
+          <ul class="footer-desktop__bottom-list">
+            <li class="footer-desktop__bottom-item">
+              <a class="footer-desktop__bottom-link" href="#">
+                Condiciones de Uso
+              </a>
+            </li>
+            <li class="footer-desktop__bottom-item">
+              <a class="footer-desktop__bottom-link" href="#">
+                Política de Privacidad
+              </a>
+            </li>
+            <li class="footer-desktop__bottom-item">
+              <a class="footer-desktop__bottom-link" href="#">
+                Política de Cookies
+              </a>
             </li>
           </ul>
           <div class="socials">

@@ -1,4 +1,5 @@
 import "./css/index.css";
+import "./scripts/menu";
 
 const accountRange = document.querySelector(".account__range");
 const points = document.querySelectorAll(".account__range-point");
