@@ -3,25 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script defer="defer" src="index.bundle.js"></script>
-  </head>
+  <script defer src="index.bundle.js"></script></head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__inner">
-          <a class="logo" href="./index.html"
-            ><img
-              class="logo__img"
-              src="./images/logo.svg"
-              alt="Creditilia"
-            /> </a
-          ><button class="header__inner-btn">Solicitar</button>
+          <a class="logo" href="./index.html">
+            <img class="logo__img" src="./images/logo.svg" alt="Creditilia" />
+          </a>
+
+          <button class="header__inner-btn">Solicitar</button>
+
           <div class="header__auth">
-            <a class="header__auth-link" href="#">Log Out </a
-            ><a class="header__auth-link" href="#">Configuration</a>
+            <!-- <img class="header__auth-img" src="./images/avatar.png" alt="avatar">
+            <a class="header__auth-name" href="#">
+              Juan Manuel Pérez
+            </a>
+
+            <a class="header__auth-link" href="#">
+              Log Out
+            </a> -->
+
+            <a class="header__auth-link" href="#"> Log Out </a>
+            <a class="header__auth-link" href="#"> Configuration </a>
           </div>
+
           <img class="burger" src="./images/burger.svg" alt="burger" />
         </div>
       </div>
@@ -36,7 +44,8 @@
                 Solicita tu Préstamo Personal Online <span>hasta 50.000€</span>
               </h1>
               <div class="banner__header-subtext">
-                100% online <span>|</span> ¡Simula tu cuota sin compromiso!
+                100% online <span>|</span>
+                ¡Simula tu cuota sin compromiso!
               </div>
             </div>
             <form class="banner__form">
@@ -70,6 +79,7 @@
               <button class="banner__form-btn big" type="submit">
                 Solicita tu préstamo
               </button>
+
               <div class="advantages__list">
                 <div class="advantages__item">
                   <img
@@ -103,6 +113,7 @@
           </div>
         </div>
       </section>
+
       <form class="calc-wrapper banner__form">
         <div class="banner__form-inner">
           <h2 class="banner__form-title">Calcula tu prestamo</h2>
@@ -167,7 +178,8 @@
           </div>
           <div class="banner__form-footer">
             <div class="input-wrapper-result">
-              <span>TIN: 9,00%</span> <span>TAE: 9,38%</span>
+              <span>TIN: 9,00%</span>
+              <span>TAE: 9,38%</span>
               <span id="monthlyFee">Cuota mensual: 590,26 €</span>
               <span id="totalDue">Total adeudado: 50.172,42 €</span>
             </div>
@@ -189,6 +201,7 @@
           </div>
         </div>
       </form>
+
       <section class="hiring">
         <div class="container">
           <div class="hiring__inner">
@@ -208,6 +221,7 @@
                   se ajusta a ti.
                 </p>
               </div>
+
               <div class="hiring__item">
                 <div class="img-wrapper">
                   <img
@@ -222,6 +236,7 @@
                   digital
                 </p>
               </div>
+
               <div class="hiring__item">
                 <div class="img-wrapper">
                   <img
@@ -250,6 +265,7 @@
               src="./images/credits-img.png"
               alt="credits"
             />
+
             <div class="credits__info">
               <h3 class="credits__info-suptitle">Préstamos inmediatos</h3>
               <h4 class="credits__info-title">
@@ -265,6 +281,7 @@
                 Con Creditilia el proceso es
                 <span>simple, claro y rápido.</span>
               </p>
+
               <button class="credits__info-btn">Solicita tu préstamo</button>
             </div>
           </div>
@@ -286,6 +303,7 @@
                   El porcentaje de solicitudes aprobadas es superior al 95%
                 </p>
               </div>
+
               <div class="reasons__item">
                 <div class="img-wrapper">
                   <img
@@ -299,6 +317,7 @@
                   Ese es el tiempo promedio que se tarda en aprobar tu solicitud
                 </p>
               </div>
+
               <div class="reasons__item">
                 <div class="img-wrapper">
                   <img
@@ -313,6 +332,7 @@
                   préstamo.
                 </p>
               </div>
+
               <div class="reasons__item">
                 <div class="img-wrapper">
                   <img
@@ -335,8 +355,12 @@
         <div class="container no-padding">
           <div class="reviews__inner">
             <h3 class="reviews__title title">Valora las últimas reseñas</h3>
+
+            <!-- Slider main container -->
             <div class="swiper">
+              <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
+                <!-- Slides -->
                 <div class="swiper-slide">
                   <div class="reviews__item">
                     <div class="reviews__item-header">
@@ -381,9 +405,9 @@
                         horas lo tenía aprobado. ¡Lo hice todo desde el móvil!
                       </p>
                     </div>
-                    <span class="reviews__item-text bottom"
-                      >Préstamo de 20.000€. Oviedo, Asturias</span
-                    >
+                    <span class="reviews__item-text bottom">
+                      Préstamo de 20.000€. Oviedo, Asturias
+                    </span>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -430,9 +454,9 @@
                         horas lo tenía aprobado. ¡Lo hice todo desde el móvil!
                       </p>
                     </div>
-                    <span class="reviews__item-text bottom"
-                      >Préstamo de 20.000€. Oviedo, Asturias</span
-                    >
+                    <span class="reviews__item-text bottom">
+                      Préstamo de 20.000€. Oviedo, Asturias
+                    </span>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -479,13 +503,21 @@
                         horas lo tenía aprobado. ¡Lo hice todo desde el móvil!
                       </p>
                     </div>
-                    <span class="reviews__item-text bottom"
-                      >Préstamo de 20.000€. Oviedo, Asturias</span
-                    >
+                    <span class="reviews__item-text bottom">
+                      Préstamo de 20.000€. Oviedo, Asturias
+                    </span>
                   </div>
                 </div>
               </div>
+              <!-- If we need pagination -->
               <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
+
+              <!-- If we need scrollbar -->
+              <!-- <div class="swiper-scrollbar"></div> -->
             </div>
           </div>
         </div>
@@ -494,7 +526,8 @@
         <div class="container">
           <div class="callback__inner">
             <h3 class="callback__title">
-              ¿Tienes algúna duda? <span>Contacta con nosotros</span>
+              ¿Tienes algúna duda?
+              <span>Contacta con nosotros</span>
             </h3>
             <button class="callback__btn">Contactar</button>
           </div>
@@ -504,8 +537,11 @@
         <div class="container no-padding">
           <div class="blog__inner">
             <h3 class="blog__title title">Blog</h3>
+            <!-- Slider main container -->
             <div class="swiper">
+              <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
+                <!-- Slides -->
                 <div class="swiper-slide">
                   <div class="blog__item">
                     <img
@@ -522,7 +558,7 @@
                       comprar un mueble nuevo para nuestra casa? Los motivos por
                       lo cuales la gente solicita...
                     </p>
-                    <a class="blog__item-link" href="#">LEER MÁS</a>
+                    <a class="blog__item-link" href="#"> LEER MÁS </a>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -541,7 +577,7 @@
                       comprar un mueble nuevo para nuestra casa? Los motivos por
                       lo cuales la gente solicita...
                     </p>
-                    <a class="blog__item-link" href="#">LEER MÁS</a>
+                    <a class="blog__item-link" href="#"> LEER MÁS </a>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -560,11 +596,19 @@
                       comprar un mueble nuevo para nuestra casa? Los motivos por
                       lo cuales la gente solicita...
                     </p>
-                    <a class="blog__item-link" href="#">LEER MÁS</a>
+                    <a class="blog__item-link" href="#"> LEER MÁS </a>
                   </div>
                 </div>
               </div>
+              <!-- If we need pagination -->
               <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
+
+              <!-- If we need scrollbar -->
+              <!-- <div class="swiper-scrollbar"></div> -->
             </div>
           </div>
         </div>
@@ -585,40 +629,46 @@
           </ul>
           <ul class="footer__links">
             <li class="footer__links-item">
-              <a class="footer__links-link" href="#">Condiciones de Uso</a>
+              <a class="footer__links-link" href="#"> Condiciones de Uso </a>
             </li>
             <li class="footer__links-item">
-              <a class="footer__links-link" href="#">Política de Privacidad</a>
+              <a class="footer__links-link" href="#">
+                Política de Privacidad
+              </a>
             </li>
             <li class="footer__links-item">
-              <a class="footer__links-link" href="#">Política de Cookies</a>
+              <a class="footer__links-link" href="#"> Política de Cookies </a>
             </li>
           </ul>
           <div class="socials">
-            <a class="socials__link" href="#"
-              ><img
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/facebook.svg"
                 alt="facebook"
-              /> </a
-            ><a class="socials__link" href="#"
-              ><img
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/twitter.svg"
                 alt="twitter"
-              /> </a
-            ><a class="socials__link" href="#"
-              ><img
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/google.svg"
                 alt="google"
-              /> </a
-            ><a class="socials__link" href="#"
-              ><img
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/youtube.svg"
                 alt="youtube"
-            /></a>
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -626,12 +676,13 @@
     <footer class="footer-desktop">
       <div class="container">
         <div class="footer-desktop__inner">
-          <a class="footer__logo" href="#"
-            ><img
+          <a class="footer__logo" href="#">
+            <img
               class="footer__logo-img"
               src="./images/footer-logo.svg"
               alt="logo"
-          /></a>
+            />
+          </a>
           <ul class="footer-desktop__list">
             <li class="footer-desktop__list-item">Préstamos</li>
             <li class="footer-desktop__list-item">Créditos</li>
@@ -669,46 +720,50 @@
         <div class="footer-desktop__bottom">
           <ul class="footer-desktop__bottom-list">
             <li class="footer-desktop__bottom-item">
-              <a class="footer-desktop__bottom-link" href="#"
-                >Condiciones de Uso</a
-              >
+              <a class="footer-desktop__bottom-link" href="#">
+                Condiciones de Uso
+              </a>
             </li>
             <li class="footer-desktop__bottom-item">
-              <a class="footer-desktop__bottom-link" href="#"
-                >Política de Privacidad</a
-              >
+              <a class="footer-desktop__bottom-link" href="#">
+                Política de Privacidad
+              </a>
             </li>
             <li class="footer-desktop__bottom-item">
-              <a class="footer-desktop__bottom-link" href="#"
-                >Política de Cookies</a
-              >
+              <a class="footer-desktop__bottom-link" href="#">
+                Política de Cookies
+              </a>
             </li>
           </ul>
           <div class="socials">
-            <a class="socials__link" href="#"
-              ><img
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/facebook.svg"
                 alt="facebook"
-              /> </a
-            ><a class="socials__link" href="#"
-              ><img
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/twitter.svg"
                 alt="twitter"
-              /> </a
-            ><a class="socials__link" href="#"
-              ><img
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/google.svg"
                 alt="google"
-              /> </a
-            ><a class="socials__link" href="#"
-              ><img
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/youtube.svg"
                 alt="youtube"
-            /></a>
+              />
+            </a>
           </div>
         </div>
       </div>

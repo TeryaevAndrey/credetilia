@@ -26,9 +26,16 @@
 }
 
 .form__arrows-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   width: 34px;
   height: 34px;
+  background-color: #E9E9E9;
+  border-radius: 50%;
+  position: relative;
+  font-size: 26px;
 }
 
 .form__progress {
@@ -178,6 +185,19 @@
   margin-left: 10px;
 }
 
+.form__error {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.form__error div{
+  text-align: center;
+  font-size: 16px;
+  color: red;
+}
+
 .form__bank-wrapper {
   position: relative;
   display: flex;
@@ -229,11 +249,5 @@
   .form__arrows {
     width: 100%;
     max-width: 100%;
-  }
-}
-
-@media (min-width: 1150px) {
-  .form {
-    height: 100%;
   }
 }

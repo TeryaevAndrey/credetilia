@@ -3,36 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script defer="defer" src="account.bundle.js"></script>
-  </head>
+  <script defer src="account.bundle.js"></script></head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__inner">
-          <a class="logo" href="./index.html"
-            ><img
-              class="logo__img"
-              src="./images/logo.svg"
-              alt="Creditilia"
-            /> </a
-          ><button class="header__inner-btn">Solicitar</button>
+          <a class="logo" href="./index.html">
+            <img class="logo__img" src="./images/logo.svg" alt="Creditilia" />
+          </a>
+
+          <button class="header__inner-btn">Solicitar</button>
+
           <div class="header__auth">
-            <a class="header__auth-link" href="#">Log Out </a
-            ><a class="header__auth-link" href="#">Configuration</a>
+            <!-- <img class="header__auth-img" src="./images/avatar.png" alt="avatar">
+          <a class="header__auth-name" href="#">
+            Juan Manuel Pérez
+          </a>
+
+          <a class="header__auth-link" href="#">
+            Log Out
+          </a> -->
+
+            <a class="header__auth-link" href="#"> Log Out </a>
+            <a class="header__auth-link" href="#"> Configuration </a>
           </div>
+
           <img class="burger" src="./images/burger.svg" alt="burger" />
         </div>
       </div>
     </header>
+
     <main class="main">
       <section class="account">
         <div class="container">
           <div class="account__inner">
             <form class="account__form">
               <h2 class="account__form-title">
-                Lorem ipsum dolor sit amet consectetur.
+                <span>Hola,</span> Juan Manuel
               </h2>
               <div class="account__range-wrapper">
                 <div class="account__range-value"></div>
@@ -44,46 +53,48 @@
                   step="100"
                   value="1000"
                 />
-                <span class="account__range-point" data-value="1000"
-                  ><span>1000€</span> </span
-                ><span class="account__range-point" data-value="30000"
-                  ><span>30000€</span> </span
-                ><span class="account__range-point" data-value="60000"
-                  ><span>60000€</span></span
-                >
+                <span class="account__range-point" data-value="1000">
+                  <span>1000€</span>
+                </span>
+                <span class="account__range-point" data-value="30000">
+                  <span>30000€</span>
+                </span>
+                <span class="account__range-point" data-value="60000">
+                  <span>60000€</span>
+                </span>
               </div>
               <div class="account__form-inputs">
                 <div class="form__input-wrapper">
-                  <span class="form__input-title">NIE/NIF </span
-                  ><input class="form__input" name="inn" />
+                  <span class="form__input-title"> NIE/NIF </span>
+                  <input class="form__input" type="text" name="inn" />
                 </div>
                 <div class="form__input-wrapper">
-                  <span class="form__input-title">NIE/NIF </span
-                  ><input class="form__input" name="inn" />
+                  <span class="form__input-title"> NIE/NIF </span>
+                  <input class="form__input" type="text" name="inn" />
                 </div>
                 <div class="form__input-wrapper">
-                  <span class="form__input-title">NIE/NIF </span
-                  ><input class="form__input" name="inn" />
+                  <span class="form__input-title"> NIE/NIF </span>
+                  <input class="form__input" type="text" name="inn" />
                 </div>
                 <div class="form__input-wrapper">
-                  <span class="form__input-title">NIE/NIF </span
-                  ><input class="form__input" name="inn" />
+                  <span class="form__input-title"> NIE/NIF </span>
+                  <input class="form__input" type="text" name="inn" />
                 </div>
                 <div class="form__input-wrapper">
-                  <span class="form__input-title">NIE/NIF </span
-                  ><input class="form__input" name="inn" />
+                  <span class="form__input-title"> NIE/NIF </span>
+                  <input class="form__input" type="text" name="inn" />
                 </div>
                 <div class="form__input-wrapper">
-                  <span class="form__input-title">NIE/NIF </span
-                  ><input class="form__input" name="inn" />
+                  <span class="form__input-title"> NIE/NIF </span>
+                  <input class="form__input" type="text" name="inn" />
                 </div>
                 <div class="form__input-wrapper">
-                  <span class="form__input-title">NIE/NIF </span
-                  ><input class="form__input" name="inn" />
+                  <span class="form__input-title"> NIE/NIF </span>
+                  <input class="form__input" type="text" name="inn" />
                 </div>
                 <div class="form__input-wrapper">
-                  <span class="form__input-title">NIE/NIF </span
-                  ><input class="form__input" name="inn" />
+                  <span class="form__input-title"> NIE/NIF </span>
+                  <input class="form__input" type="text" name="inn" />
                 </div>
               </div>
               <div class="account__form-footer">
@@ -105,6 +116,7 @@
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container">
         <div class="footer__inner">
@@ -120,40 +132,141 @@
           </ul>
           <ul class="footer__links">
             <li class="footer__links-item">
-              <a class="footer__links-link" href="#">Condiciones de Uso</a>
+              <a class="footer__links-link" href="#"> Condiciones de Uso </a>
             </li>
             <li class="footer__links-item">
-              <a class="footer__links-link" href="#">Política de Privacidad</a>
+              <a class="footer__links-link" href="#">
+                Política de Privacidad
+              </a>
             </li>
             <li class="footer__links-item">
-              <a class="footer__links-link" href="#">Política de Cookies</a>
+              <a class="footer__links-link" href="#"> Política de Cookies </a>
             </li>
           </ul>
           <div class="socials">
-            <a class="socials__link" href="#"
-              ><img
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/facebook.svg"
                 alt="facebook"
-              /> </a
-            ><a class="socials__link" href="#"
-              ><img
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/twitter.svg"
                 alt="twitter"
-              /> </a
-            ><a class="socials__link" href="#"
-              ><img
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/google.svg"
                 alt="google"
-              /> </a
-            ><a class="socials__link" href="#"
-              ><img
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
                 class="socials__img"
                 src="./images/youtube.svg"
                 alt="youtube"
-            /></a>
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="footer-desktop">
+      <div class="container">
+        <div class="footer-desktop__inner">
+          <a class="footer__logo" href="#">
+            <img
+              class="footer__logo-img"
+              src="./images/footer-logo.svg"
+              alt="logo"
+            />
+          </a>
+          <ul class="footer-desktop__list">
+            <li class="footer-desktop__list-item">Préstamos</li>
+            <li class="footer-desktop__list-item">Créditos</li>
+            <li class="footer-desktop__list-item">Tarjetas</li>
+          </ul>
+        </div>
+        <div class="footer-desktop__text-wrapper">
+          <div>
+            <p class="footer-desktop__text">
+              © 2022 Prestalo Online S.L. Carrer de Tuset, 8, 08006, Barcelona,
+              España. Inscripción en el Registro Mercantil de Barcelona. Tomo
+              46606, Folio 37, Hoja 525271. Prestalo ofrece un servicio de
+              intermediación financiera entre los consumidores y los bancos.
+              Cualquiera puede acceder a la simulación de la oferta de
+              diferentes compañías aunque no tenga una cuenta con las mismas.
+            </p>
+            <p class="footer-desktop__text">
+              El funcionamiento de la plataforma es muy sencillo. Se debe
+              completar la solicitud, ésta información se envía a las entidades
+              financieras a tiempo real con el fin de que la herramienta
+              compare, negocie y escanee las mejores ofertas. Una vez aceptada
+              la propuesta, se ingresa el dinero directamente en la cuenta del
+              cliente.
+            </p>
+          </div>
+          <p class="footer-desktop__text">
+            Ejemplo representativo: Un crédito de 5.000€ a devolver en 60 meses.
+            Interés fijo anual 6,11%. Cuota mensual 96,62 €. Sin comisión de
+            apertura, estudio o por cancelación anticipada con devolución del
+            principal dispuesto. TAE 6,28%. Cantidad total a devolver 5.815,20
+            €. Para los usuarios el uso de este intermediario financiero es
+            gratuito.
+          </p>
+        </div>
+        <div class="footer-desktop__bottom">
+          <ul class="footer-desktop__bottom-list">
+            <li class="footer-desktop__bottom-item">
+              <a class="footer-desktop__bottom-link" href="#">
+                Condiciones de Uso
+              </a>
+            </li>
+            <li class="footer-desktop__bottom-item">
+              <a class="footer-desktop__bottom-link" href="#">
+                Política de Privacidad
+              </a>
+            </li>
+            <li class="footer-desktop__bottom-item">
+              <a class="footer-desktop__bottom-link" href="#">
+                Política de Cookies
+              </a>
+            </li>
+          </ul>
+          <div class="socials">
+            <a class="socials__link" href="#">
+              <img
+                class="socials__img"
+                src="./images/facebook.svg"
+                alt="facebook"
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
+                class="socials__img"
+                src="./images/twitter.svg"
+                alt="twitter"
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
+                class="socials__img"
+                src="./images/google.svg"
+                alt="google"
+              />
+            </a>
+            <a class="socials__link" href="#">
+              <img
+                class="socials__img"
+                src="./images/youtube.svg"
+                alt="youtube"
+              />
+            </a>
           </div>
         </div>
       </div>

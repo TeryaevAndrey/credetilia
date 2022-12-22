@@ -12,7 +12,7 @@ if (currentTab === 0) {
   back.style.display = "none";
   next.style.marginLeft = "auto";
 } else {
-  back.style.display = "block";
+  back.style.display = "flex";
   next.style.marginLeft = "0";
 }
 
@@ -20,7 +20,7 @@ if (currentTab === 2) {
   next.style.display = "none";
   back.style.marginRight = "auto";
 } else {
-  next.style.display = "block";
+  next.style.display = "flex";
   back.style.marginLeft = "0";
 }
 
@@ -37,7 +37,7 @@ const nextTab = () => {
       back.style.display = "none";
       next.style.marginLeft = "auto";
     } else {
-      back.style.display = "block";
+      back.style.display = "flex";
       next.style.marginLeft = "0";
     }
 
@@ -45,7 +45,7 @@ const nextTab = () => {
       next.style.display = "none";
       back.style.marginRight = "auto";
     } else {
-      next.style.display = "block";
+      next.style.display = "flex";
       back.style.marginLeft = "0";
     }
   }
@@ -65,7 +65,7 @@ const backTab = () => {
       back.style.display = "none";
       next.style.marginLeft = "auto";
     } else {
-      back.style.display = "block";
+      back.style.display = "flex";
       next.style.marginLeft = "0";
     }
 
@@ -73,7 +73,7 @@ const backTab = () => {
       next.style.display = "none";
       back.style.marginRight = "auto";
     } else {
-      next.style.display = "block";
+      next.style.display = "flex";
       back.style.marginLeft = "0";
     }
   }
